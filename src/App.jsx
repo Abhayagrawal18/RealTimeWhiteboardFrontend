@@ -7,7 +7,7 @@ import {toast, ToastContainer} from "react-toastify"
 import RoomPage from "./pages/RoomPage";
 import { useEffect, useState } from "react";
 
-const server = "http://localhost:5000";
+const server = "https://realtimewhiteboardbackend.onrender.com/";
 const connectionOptions = {
   "force new connection": true,
   reconnectionAttempts : "Infinity",
